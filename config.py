@@ -4,23 +4,23 @@ from pyspark.sql.types import StructType, StringType, MapType, StructField,\
                              BooleanType, DateType, NumericType, IntegerType,\
                              LongType, TimestampType, FloatType, ArrayType
 
-consumer_key    = 'T3bxHQI78bQSMxhryPQk4rgMs'
-consumer_secret = 'uZEP6eLjUGGkS4YtRvm3PISnpMlho7vniHKeoZMF2NVu9B6rpe'
-access_token    = '1207006565074640897-c761jqaeRPkTPeyjBFxlPqsirDhYQ1'
-access_secret   = 'qmJiaHbct4hshX4mcVIx2BuKCPdo8xndNPb7bOLes4MOs'
+consumer_key    = '*************************'
+consumer_secret = '**************************************************'
+access_token    = '**************************************************'
+access_secret   = '*******************************************'
 
 
 topic = 'TweeterArchive'
 partitionCol = "created_ym"
-Keywords = 'Tesla'
+Keywords = 'FIFA'
 
 
 hdfs_host = 'localhost'
 hdfs_port = 8020 #9870
 hive_port = 10000
 hive_username = 'hdfs'
-hive_password = 'naya'
-hive_database = 'tesla'
+hive_password = '****'
+hive_database = 'FIFA'
 hive_mode = 'CUSTOM'
 
 hdfs_archive_path = '/tmp/project/archive'    
